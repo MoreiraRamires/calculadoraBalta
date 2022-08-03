@@ -5,4 +5,6 @@ Console.WriteLine("Primeiro Valor");
 float valor1 = float.Parse(Console.ReadLine());
 Console.WriteLine("Segundo Valor");
 float valor2 = float.Parse(Console.ReadLine());
-Console.WriteLine(valor1+valor2);
+
+float resultado = valor1 / valor2;
+Console.WriteLine($"O resultado é {resultado} " );
